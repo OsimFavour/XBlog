@@ -7,7 +7,7 @@ export const FooterContainer = styled(Container)(({theme}) => ({
     marginTop: theme.spacing(8),
     paddingTop: theme.spacing(3),
     paddingBottom: theme.spacing(3),
-    [theme.breakkpoints.up('sm')]: {
+    [theme.breakpoints.up('sm')]: {
         paddingTop: theme.spacing(6),
         paddingBottom: theme.spacing(6)
     }
