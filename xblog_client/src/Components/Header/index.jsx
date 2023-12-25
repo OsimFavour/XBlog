@@ -8,12 +8,13 @@ const Header = () => {
         <>
             <CssBaseline/>
             <HeaderContainer
-                position='static'
-                color='white'
+                // sx={{color: 'white'}}
+                // position='static'
+                // color='white'
                 elevation={0}
             >
                 <Toolbar>
-                    <Typography variant='h6' color='inherit' noWrap>
+                    <Typography variant='h6' color='#000' noWrap>
                         XBlog
                     </Typography>
                 </Toolbar>
